@@ -1,0 +1,218 @@
+
+> nextjs@0.1.0 dev
+> next dev -p 3000 -H 0.0.0.0
+
+   ▲ Next.js 15.2.3
+   - Local:        http://localhost:3000
+   - Network:      http://0.0.0.0:3000
+
+ ✓ Starting...
+ ✓ Ready in 1493ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4.3s (708 modules)
+ GET / 200 in 4679ms
+ ⚠ Blocked cross-origin request from vscode-internal-24-beta.beta01.cloud.kavia.ai. To allow this, configure "allowedDevOrigins" in next.config
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET / 200 in 41ms
+ GET / 200 in 74ms
+ ✓ Compiled in 263ms (320 modules)
+ GET / 200 in 22ms
+ GET / 200 in 20ms
+ GET / 200 in 17ms
+ ✓ Compiled in 335ms (690 modules)
+ GET / 200 in 96ms
+ GET / 200 in 21ms
+ GET / 200 in 19ms
+ ⨯ ./src/app/layout.tsx
+Error:   [31mx[0m You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/
+  [31m|[0m docs/app/api-reference/directives/use-client
+  [31m|[0m 
+  [31m|[0m 
+    ,-[[36;1;4m/home/kavia/workspace/code-generation/notemaster-web-94539-a93c9d83/notes_frontend/src/app/layout.tsx[0m:23:1]
+ [2m20[0m |   subsets: ["latin"],
+ [2m21[0m | });
+ [2m22[0m | 
+ [2m23[0m | export const metadata: Metadata = {
+    : [35;1m             ^^^^^^^^[0m
+ [2m24[0m |   title: "Notemaster",
+ [2m25[0m |   description: "A minimalist notes application",
+ [2m26[0m | };
+    `----
+
+Import trace for requested module:
+./src/app/layout.tsx
+ ⨯ ./src/app/layout.tsx
+Error:   [31mx[0m You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/
+  [31m|[0m docs/app/api-reference/directives/use-client
+  [31m|[0m 
+  [31m|[0m 
+    ,-[[36;1;4m/home/kavia/workspace/code-generation/notemaster-web-94539-a93c9d83/notes_frontend/src/app/layout.tsx[0m:23:1]
+ [2m20[0m |   subsets: ["latin"],
+ [2m21[0m | });
+ [2m22[0m | 
+ [2m23[0m | export const metadata: Metadata = {
+    : [35;1m             ^^^^^^^^[0m
+ [2m24[0m |   title: "Notemaster",
+ [2m25[0m |   description: "A minimalist notes application",
+ [2m26[0m | };
+    `----
+
+Import trace for requested module:
+./src/app/layout.tsx
+ ⨯ ./src/app/layout.tsx
+Error:   [31mx[0m You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/
+  [31m|[0m docs/app/api-reference/directives/use-client
+  [31m|[0m 
+  [31m|[0m 
+    ,-[[36;1;4m/home/kavia/workspace/code-generation/notemaster-web-94539-a93c9d83/notes_frontend/src/app/layout.tsx[0m:16:1]
+ [2m13[0m |   subsets: ["latin"],
+ [2m14[0m | });
+ [2m15[0m | 
+ [2m16[0m | export const metadata: Metadata = {
+    : [35;1m             ^^^^^^^^[0m
+ [2m17[0m |   title: "Notemaster",
+ [2m18[0m |   description: "A minimalist notes application",
+ [2m19[0m | };
+    `----
+
+Import trace for requested module:
+./src/app/layout.tsx
+./src/app/page.tsx
+ ⨯ ./src/app/layout.tsx
+Error:   [31mx[0m You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/
+  [31m|[0m docs/app/api-reference/directives/use-client
+  [31m|[0m 
+  [31m|[0m 
+    ,-[[36;1;4m/home/kavia/workspace/code-generation/notemaster-web-94539-a93c9d83/notes_frontend/src/app/layout.tsx[0m:16:1]
+ [2m13[0m |   subsets: ["latin"],
+ [2m14[0m | });
+ [2m15[0m | 
+ [2m16[0m | export const metadata: Metadata = {
+    : [35;1m             ^^^^^^^^[0m
+ [2m17[0m |   title: "Notemaster",
+ [2m18[0m |   description: "A minimalist notes application",
+ [2m19[0m | };
+    `----
+
+Import trace for requested module:
+./src/app/layout.tsx
+./src/app/page.tsx
+ ⨯ ./src/app/layout.tsx
+Error:   [31mx[0m You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/
+  [31m|[0m docs/app/api-reference/directives/use-client
+  [31m|[0m 
+  [31m|[0m 
+    ,-[[36;1;4m/home/kavia/workspace/code-generation/notemaster-web-94539-a93c9d83/notes_frontend/src/app/layout.tsx[0m:16:1]
+ [2m13[0m |   subsets: ["latin"],
+ [2m14[0m | });
+ [2m15[0m | 
+ [2m16[0m | export const metadata: Metadata = {
+    : [35;1m             ^^^^^^^^[0m
+ [2m17[0m |   title: "Notemaster",
+ [2m18[0m |   description: "A minimalist notes application",
+ [2m19[0m | };
+    `----
+
+Import trace for requested module:
+./src/app/layout.tsx
+./src/app/page.tsx
+ ⨯ ./src/app/layout.tsx
+Error:   [31mx[0m You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/
+  [31m|[0m docs/app/api-reference/directives/use-client
+  [31m|[0m 
+  [31m|[0m 
+    ,-[[36;1;4m/home/kavia/workspace/code-generation/notemaster-web-94539-a93c9d83/notes_frontend/src/app/layout.tsx[0m:16:1]
+ [2m13[0m |   subsets: ["latin"],
+ [2m14[0m | });
+ [2m15[0m | 
+ [2m16[0m | export const metadata: Metadata = {
+    : [35;1m             ^^^^^^^^[0m
+ [2m17[0m |   title: "Notemaster",
+ [2m18[0m |   description: "A minimalist notes application",
+ [2m19[0m | };
+    `----
+
+Import trace for requested module:
+./src/app/layout.tsx
+./src/app/page.tsx
+ ⨯ ./src/app/layout.tsx
+Error:   [31mx[0m You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/
+  [31m|[0m docs/app/api-reference/directives/use-client
+  [31m|[0m 
+  [31m|[0m 
+    ,-[[36;1;4m/home/kavia/workspace/code-generation/notemaster-web-94539-a93c9d83/notes_frontend/src/app/layout.tsx[0m:16:1]
+ [2m13[0m |   subsets: ["latin"],
+ [2m14[0m | });
+ [2m15[0m | 
+ [2m16[0m | export const metadata: Metadata = {
+    : [35;1m             ^^^^^^^^[0m
+ [2m17[0m |   title: "Notemaster",
+ [2m18[0m |   description: "A minimalist notes application",
+ [2m19[0m | };
+    `----
+
+Import trace for requested module:
+./src/app/layout.tsx
+./src/app/page.tsx
+ ⨯ ./src/app/layout.tsx
+Error:   [31mx[0m You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/
+  [31m|[0m docs/app/api-reference/directives/use-client
+  [31m|[0m 
+  [31m|[0m 
+    ,-[[36;1;4m/home/kavia/workspace/code-generation/notemaster-web-94539-a93c9d83/notes_frontend/src/app/layout.tsx[0m:17:1]
+ [2m14[0m |   subsets: ["latin"],
+ [2m15[0m | });
+ [2m16[0m | 
+ [2m17[0m | export const metadata: Metadata = {
+    : [35;1m             ^^^^^^^^[0m
+ [2m18[0m |   title: "Notemaster",
+ [2m19[0m |   description: "A minimalist notes application",
+ [2m20[0m | };
+    `----
+
+Import trace for requested module:
+./src/app/layout.tsx
+./src/app/page.tsx
+ ⨯ ./src/app/layout.tsx
+Error:   [31mx[0m You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/
+  [31m|[0m docs/app/api-reference/directives/use-client
+  [31m|[0m 
+  [31m|[0m 
+    ,-[[36;1;4m/home/kavia/workspace/code-generation/notemaster-web-94539-a93c9d83/notes_frontend/src/app/layout.tsx[0m:16:1]
+ [2m13[0m |   subsets: ["latin"],
+ [2m14[0m | });
+ [2m15[0m | 
+ [2m16[0m | export const metadata: Metadata = {
+    : [35;1m             ^^^^^^^^[0m
+ [2m17[0m |   title: "Notemaster",
+ [2m18[0m |   description: "A minimalist notes application",
+ [2m19[0m | };
+    `----
+
+Import trace for requested module:
+./src/app/layout.tsx
+./src/app/page.tsx
+ ⨯ ./src/app/layout.tsx
+Error:   [31mx[0m You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/
+  [31m|[0m docs/app/api-reference/directives/use-client
+  [31m|[0m 
+  [31m|[0m 
+    ,-[[36;1;4m/home/kavia/workspace/code-generation/notemaster-web-94539-a93c9d83/notes_frontend/src/app/layout.tsx[0m:18:1]
+ [2m15[0m |   subsets: ["latin"],
+ [2m16[0m | });
+ [2m17[0m | 
+ [2m18[0m | export const metadata: Metadata = {
+    : [35;1m             ^^^^^^^^[0m
+ [2m19[0m |   title: "Notemaster",
+ [2m20[0m |   description: "A minimalist notes application",
+ [2m21[0m | };
+    `----
+
+Import trace for requested module:
+./src/app/layout.tsx
+./src/app/page.tsx
+ ✓ Compiled in 243ms (694 modules)
+ GET / 200 in 120ms
+ GET / 200 in 22ms
+ GET / 200 in 17ms
+ ✓ Compiled in 208ms (694 modules)
